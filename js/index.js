@@ -18,15 +18,15 @@ $(document).ready(function(){
 
     $("#ff").on({
         mouseenter: function(){
-        $("#p4").html("WELCOME TO THEOSCO CONSTRUCTION LIMITED (TCC)");
+        $("#p4").html("WELCOME TO THEOSCO CONSTRUCTION LIMITED (TCC)").css("fontSize","5rem")   ;
     },
     mouseleave: function () {
-        $("#p4").html("CONTACT US TODAY FOR YOUR CONSTRUCTION WORK");
+        $("#p4").html("CONTACT US TODAY FOR YOUR CONSTRUCTION WORK").css("fontSize","5rem");
     }
 
     });
 
-    $("")
+    $("a").css("fontSize", "20px");
         /*$("#p4").slideUp().slideDown();*/
     
 });
