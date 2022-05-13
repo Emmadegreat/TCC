@@ -1,32 +1,35 @@
-$("h1").css("color", "red");
 $(document).ready(function(){
-    $("button").click(function(){
+    /*$("button").click(function(){
         $("h1").hide();
     });
 
-    $("p").css("fontSize","2rem");
+    $("button").click(function () {
+        $("#p1").css("color", "blue").slideToggle();
+    });
     $("#p1").hover(function () {
         $(this).html('welcome');
     }, 
     function () {
         $(this).html('bye bye');
     });
-    $("button").click(function () {
-        $("#p1").css("color", "blue").slideToggle();
-    });
 
+    $("p").css("fontSize","2rem");
+    
+    */
 
-    $("#ff").on({
+    
+
+    $("#fixed_carousel").on({
         mouseenter: function(){
-        $("#p4").html("WELCOME TO THEOSCO CONSTRUCTION LIMITED (TCC)").css("fontSize","5rem")   ;
+        $("#fixed_carousel_p").html("WELCOME TO THEOSCO CONSTRUCTION LIMITED (TCC)").css("fontSize","3.5rem")   ;
     },
     mouseleave: function () {
-        $("#p4").html("CONTACT US TODAY FOR YOUR CONSTRUCTION WORK").css("fontSize","5rem");
+        $("#fixed_carousel_p").html("CONTACT US TODAY FOR YOUR CONSTRUCTION WORK").css("fontSize","3.5rem");
     }
 
     });
 
-    $("a").css("fontSize", "20px");
+    $("").css("fontSize", "px");
         /*$("#p4").slideUp().slideDown();*/
     
 });
