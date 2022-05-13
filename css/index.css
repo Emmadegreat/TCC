@@ -75,27 +75,22 @@
 p{
     font-size: 1.5rem;
 }
-.col-lg-4{
-    border: 2px solid red;
-    padding: 1.5rem;
-    align-items: center;
-    text-align: justify;
-    color: var(--link-color);
-    font-size: 20px;
-}
 
 #section_2{
-    padding: 1rem 0;
+    padding: 2rem 1.5rem;
 }
 
+.col-sm{
+    margin-bottom: 1rem;
+}
 
-#img_3{
-    max-width: 360px;
-    height: 400px;
+#img_1, #img_2, #img_3, #img_4{
+    width: 500px;
+    height: 366px;
     transform: translateY(100%,);
 }
 
-#img_3:hover{
+#img_1:hover, #img_2:hover, #img_3:hover, #img_4:hover{
     transition: transform 3s;
     opacity: 0.5;
 }
