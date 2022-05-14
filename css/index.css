@@ -61,8 +61,8 @@
 }
 
 
-#section_2{
-    background: #131313;
+#section_2, #section_3{
+    background: #1d3044;
     opacity: 0.99;
     width: 100%;
 }
@@ -76,7 +76,7 @@ p{
     font-size: 1.5rem;
 }
 
-#section_2{
+#section_2, #section_3{
     padding: 2rem 1.5rem;
 }
 
@@ -84,15 +84,31 @@ p{
     margin-bottom: 1rem;
 }
 
+.card-body{
+    overflow: hidden;
+}
+
 #img_1, #img_2, #img_3, #img_4{
     width: 500px;
     height: 366px;
-    transform: translateY(100%,);
+    transition: all 1.5s ease;
+    transform: translateY();
 }
 
 #img_1:hover, #img_2:hover, #img_3:hover, #img_4:hover{
-    transition: transform 3s;
-    opacity: 0.5;
+    transform: scale(1.3);
+}
+
+#core_value_img_1, #core_value_img_2, #core_value_img_3{/*core value section imgaes*/
+    width: 200px;
+    height: 180px;
+    transition: all 1.5s ease;
+}
+
+#core_value_img_1:hover, #core_value_img_2:hover, #core_value_img_3:hover{/*core value section imgaes*/
+    width: 200px;
+    height: 180px;
+    transform: scale(1.3);
 }
 
 #footer_1{

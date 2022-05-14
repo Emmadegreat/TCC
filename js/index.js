@@ -29,8 +29,14 @@ $(document).ready(function(){
 
     });
 
-    $("").css("fontSize", "px");
-        /*$("#p4").slideUp().slideDown();*/
+    $("h1").css("fontSize","2rem");
+    
+    $("img").click(function () {
+        $("#body_1").html("Thank you for your patronage");
+    });
+
+    
+    
     
 });
 
