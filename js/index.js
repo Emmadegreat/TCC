@@ -29,7 +29,7 @@ $(document).ready(function(){
 
     });
 
-    $("h1").css("fontSize","10rem");
+    /*$("h1").css("fontSize","10rem");*/
     
     $("img").mouseenter(function () {
         $("#body_1").css("backgroundColor","#1d3044").html("Thank you for your patronage.").css("height","20vh").css("color","#fff");
@@ -40,6 +40,7 @@ $(document).ready(function(){
         $("#core_value_img_1").show();
           
     });
+    $("#soc_id").css("color","red");
 
     
     
