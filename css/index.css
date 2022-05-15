@@ -11,6 +11,9 @@
     --text-color:#000;
     --link-color:#fff;
     --hover-color:#ff8c00;
+    --section-background:#1d3044;
+    --footer-background:#000;
+    --hr-color:cornsilk;
 }
 
 .navbar-expand-sm{
@@ -62,7 +65,7 @@
 
 
 #section_2, #section_3{
-    background: #1d3044;
+    background:var(--section-background);
     opacity: 0.99;
     width: 100%;
 }
@@ -74,6 +77,10 @@
 }
 p{
     font-size: 1rem;
+}
+#hr1,#hr2{
+    background: var(--hr-color);
+    color: var(--hr-color);
 }
 
 #section_2, #section_3{
@@ -115,4 +122,56 @@ p{
 .card-footer{
     align-items: center;
     text-align: justify;
+}
+
+/***page footer styling***/
+#footer_headers{
+    align-items: center;
+    text-align: center;
+}
+
+.footer_head{
+    background: var(--footer-background);
+    padding: 2rem 0;
+}
+
+#footer_row{
+    flex: content;
+    text-align: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.social_media, .quick_link_menu{
+    display: block;
+}
+
+.social_media li,.quick_link_menu li{
+    display: block;
+    list-style-type: none;
+}
+
+.social_media li a, .quick_link_menu li a{
+    display: block;
+    text-decoration: none;
+    color: darkgray;
+    opacity: 0.2;
+}
+
+.social_media li a:hover, .quick_link_menu li a:hover, #footer_bottom_col a:hover{
+    color: var(--hover-color)
+}
+
+#footer_bottom_col{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#footer_bottom_col a{
+    text-decoration: none;
+    color: darkgray;
+    opacity: 0.2;
 }

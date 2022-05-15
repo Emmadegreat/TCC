@@ -1,4 +1,4 @@
-document.getElementsByTagName("p").style.fontSize = "6rem";
+document.getElementById("rights").innerHTML = new Date().getFullYear();
 
 
 
