@@ -21,18 +21,24 @@ $(document).ready(function(){
 
     $("#fixed_carousel").on({
         mouseenter: function(){
-        $("#fixed_carousel_p").html("WELCOME TO THEOSCO CONSTRUCTION LIMITED (TCC)").css("fontSize","3.5rem")   ;
-    },
-    mouseleave: function () {
-        $("#fixed_carousel_p").html("CONTACT US TODAY FOR YOUR CONSTRUCTION WORK").css("fontSize","3.5rem");
-    }
+            $("#fixed_carousel_p").html("WELCOME TO THEOSCO CONSTRUCTION LIMITED (TCC)").css("fontSize","3.5rem");
+        },
+        mouseleave: function () {
+            $("#fixed_carousel_p").html("CONTACT US TODAY FOR YOUR CONSTRUCTION WORK").css("fontSize","3.5rem");
+        }
 
     });
 
-    $("h1").css("fontSize","2rem");
+    $("h1").css("fontSize","10rem");
     
-    $("img").click(function () {
-        $("#body_1").html("Thank you for your patronage");
+    $("img").mouseenter(function () {
+        $("#body_1").css("backgroundColor","#1d3044").html("Thank you for your patronage.").css("height","20vh").css("color","#fff");
+          
+    });
+
+    $("#body_1").mouseleave(function () {
+        $("#core_value_img_1").show();
+          
     });
 
     
