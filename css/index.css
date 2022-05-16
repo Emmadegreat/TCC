@@ -175,3 +175,12 @@ p{
     color: darkgray;
     opacity: 0.2;
 }
+
+/*------design and equipment section--------*/
+#section_4{
+    padding: 2rem 1.5rem;
+}
+
+#row_3 h1{
+    padding-bottom: 1.5rem;
+}
