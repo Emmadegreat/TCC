@@ -184,3 +184,8 @@ p{
 #row_3 h1{
     padding-bottom: 1.5rem;
 }
+
+#card_footer_1, #card_footer_2, #card_footer_3{
+    background: var(--section-background);
+    color: var(--link-color);
+}
