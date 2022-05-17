@@ -1,4 +1,5 @@
 document.getElementById("rights").innerHTML = new Date().getFullYear();
+document.getElementById("p").innerHTML = "helloooooooooo";
 
 
 
