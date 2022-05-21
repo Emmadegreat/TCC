@@ -16,7 +16,7 @@
     --hr-color:cornsilk;
 }
 
-.navbar-expand-sm{
+.navbar{
     background-color: var(--background);
     border-bottom: 3px solid var(--border-color);
     color: var(--text-color);
