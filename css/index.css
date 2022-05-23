@@ -214,6 +214,26 @@ p{
 #row_3 p{
     text-align: center;
 }
+
+/*-----------------------ABOUT SECTION---------------*/
+
+#about_main{
+    padding: 6rem 3rem 2rem 3rem;
+}
+
+#about_section{
+    align-items: center;
+    text-align: justify;
+}
+#h2{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#about_col img{
+    width: 150px;
+    height: 150px;
+}
 /*-----------------------MEDIA QUERY------------------------*/
 @media screen and (max-width: 605px) and (min-width:480px){
     #row_1 img{
