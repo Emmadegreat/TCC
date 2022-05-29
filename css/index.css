@@ -39,7 +39,7 @@
     
 }
 
-#page_icon{
+#page_logo{
     width:50px;
     height:50px;
     border-radius:100%;
@@ -84,7 +84,7 @@
 
 }
 p{
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 #hr1,#hr2{
     background: var(--hr-color);
@@ -190,6 +190,7 @@ p{
     opacity: 0.2;
 }/*-----------------page footer styling end---------------*/
 
+
 /*------design and equipment section--------*/
 #section_4{
     padding: 2rem 1.5rem;
@@ -209,6 +210,7 @@ p{
     opacity: 1;
     transform: scaleX(1.8);
     transition: all 1.5s ease;
+    cursor:pointer;
 }
 
 #row_3 p{
@@ -219,20 +221,58 @@ p{
 
 #about_main{
     padding: 6rem 3rem 2rem 3rem;
+    background:#191970
 }
 
 #about_section{
     align-items: center;
     text-align: justify;
+    color:gray;
 }
 #h2{
     text-align: center;
     padding-bottom: 1rem;
+    color: gray;
 }
 
 #about_col img{
     width: 150px;
     height: 150px;
+}
+
+/*----------------------Contact section---------------------------*/
+#contact__row{
+    align-items: center;
+    text-align: center;
+}
+#contact__id__1,#contact__id__2,#contact__id__3{
+    padding-left: 2rem;
+}
+
+#contact__id__1{
+    margin-top: -3rem;
+    text-align: center;
+    
+}
+
+#contact__id__2{
+    padding-top: 4.4rem;
+    text-align: center;
+}
+input,#submit{
+    width: 270px;
+    height: 40px;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+#submit:hover{
+    background: #1d3044;
+    cursor: pointer;
+    color: #ff8c00;
+}
+textarea{
+    width: 270px;
+    border-radius: 0.4rem;
 }
 /*-----------------------MEDIA QUERY------------------------*/
 @media screen and (max-width: 605px) and (min-width:480px){
@@ -275,4 +315,9 @@ p{
     }
 }
 
-
+@media screen and (max-width: 340px){
+    #contact__id__2{
+        padding-left: 1rem;
+        text-align: center;
+    }
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACT | PAGE </title>
+    <title>CONTACT</title>
     
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
@@ -17,7 +17,7 @@
   
     <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-blue"> <!--navbar-dark bg-dark-->
       <div class="container-fluid">
-        <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+        <a class="navbar-brand"><img src="/images/logo.PNG" alt="" id="page_logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,15 +46,47 @@
 
     <main>
         <section >
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31717.431276662202!2d7.5077603859578215!3d6.435272147455397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a6aad0d2695f%3A0x260e4e41c5b07535!2sIndependence%20Layout%2C%20Enugu!5e0!3m2!1sen!2sng!4v1652822223960!5m2!1sen!2sng" width="100%" height="600" style="border:0;padding-top: 4.1rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31717.431276662202!2d7.5077603859578215!3d6.435272147455397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a6aad0d2695f%3A0x260e4e41c5b07535!2sIndependence%20Layout%2C%20Enugu!5e0!3m2!1sen!2sng!4v1652822223960!5m2!1sen!2sng" width="100%" height="600" style="border:0;padding-top: 4.1rem;padding-bottom: 3rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
 
-        <section>
-            <article class="container">
-                <p>TCC limited was established in the year 2015, on the view to satisfy my curiosity to 
-                    practice my structural/civil enginerring profession.
-                </p>
-            </article>
+        
+            <div class="row container" id="contact__row">
+                <div class="col-sm" id="contact__id__1">
+                  <h3>Head office</h3>
+                  <p>23 Independence Layout Enugu, Enugu State Nigeria</p><br>
+
+                  <h3>Branch Office</h3>
+                  <p>Suite 4, Second floor Great Nigeria building Lagos Island, Lagos.</p>
+                </div><br>
+
+                <div class="col-sm" id="contact__id__2">
+                  <form action="#" role="form" method="">
+                    <h3>Send us a mail</h3><br>
+                    <div>
+                      <input type="text" name="fullname" id="fname" placeholder="Name" required>
+                    </div><br>
+                    <div>                
+                      <input type="number" name="phone__number" id="phone__number" placeholder="Mobilenumber" required>
+                    </div><br>
+                    <div>
+                      <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div><br>
+                    
+                    <div>
+                      <textarea name="mesage" id="message" required placeholder="Message"></textarea>
+                    </div><br>
+                    <div>
+                      <button type="submit" class="btn btn-primary" id="submit" value="Submit">Submit</button>
+                    </div><br>
+                  </form>
+                </div>
+
+                <div class="col-sm" id="contact__id__3">
+                  <h3>Mobilenumber</h3>
+                  <p>+234-703-453-4697</p>
+                  <p>+234-902-890-5343</p>
+                </div>
+              </div>
         </section>
     </main>
 
@@ -117,7 +149,7 @@
 
           <div class="scroll-top page-scroll visible-xs visible-sm visible-m visible-lg"><!---SCROLL TO TOP BUTTON-->
             <a href="#" class="btn btn-primary">
-            <i class="fa fa-chevron-up">UP</i>
+            <i class="fa fa-chevron-up"></i>
             </a>
           </div><!---SCROLL TO TOP BUTTON END-->
 
