@@ -34,7 +34,7 @@
     font-size: 1.2rem;
 }
 
-.navbar-nav li a:hover, .navbar a:hover{
+.nav-link:hover{
     color: var(--hover-color);
     
 }
