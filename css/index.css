@@ -48,7 +48,7 @@
 .fixed_carousel{
     height: 730px;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1690px;
     background-image: url('/images/constr1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,6 +154,8 @@ p{
     text-align: center;
     align-items: center;
     font-size: 1rem;
+    color: var(--link-color);
+    opacity: 0.5;
 }
 
 .social_media, .quick_link_menu{
@@ -168,8 +170,7 @@ p{
 .social_media li a, .quick_link_menu li a{
     display: block;
     text-decoration: none;
-    color: darkgray;
-    opacity: 0.2;
+    color: var(--link-color);
 }
 
 .social_media li a:hover, .quick_link_menu li a:hover, #footer_bottom_col a:hover{
@@ -186,8 +187,12 @@ p{
 
 #footer_bottom_col a{
     text-decoration: none;
-    color: darkgray;
-    opacity: 0.2;
+    color: #fff;
+}
+
+#footer_bottom_col span{
+    color: var(--link-color);
+    opacity: 0.5;
 }/*-----------------page footer styling end---------------*/
 
 
@@ -203,7 +208,7 @@ p{
 #row_3 img{
     width: 220px;
     height: 180px;
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 #row_3 img:hover{
@@ -240,6 +245,25 @@ p{
     height: 150px;
 }
 
+#about_col p{
+    height: 46px;
+    padding-bottom: 2rem;
+}
+
+/*----------------------Services section---------------------------*/
+
+#services__main{
+    padding: 6rem 3rem;
+    text-align: justify;
+}
+
+#services__section{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+
 /*----------------------Contact section---------------------------*/
 #contact__row{
     align-items: center;
@@ -273,11 +297,11 @@ input,#submit{
 textarea{
     width: 270px;
     border-radius: 0.4rem;
+    padding: 0.5rem;
 }
 /*-----------------------MEDIA QUERY------------------------*/
 @media screen and (max-width: 605px) and (min-width:480px){
     #row_1 img{
-        
         height: 250px;
         max-width: 400px;
         

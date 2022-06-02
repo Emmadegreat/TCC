@@ -1,1 +1,1 @@
-# TCC web site for a construction company. Developed with HTML, CSS, JAVASCRIPT and BOOTSTRAP
+# TCC web site for a (prototye) construction company. Developed with HTML, CSS, JAVASCRIPT, JQUERY and BOOTSTRAP
