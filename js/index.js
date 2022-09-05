@@ -21,10 +21,10 @@ $(document).ready(function(){
 
     $("#fixed_carousel").on({
         mouseenter: function(){
-            $("#fixed_carousel_p").html("THEOSCO CONSTRUCTION LIMITED (TCC)").css("fontSize","2.5rem");
+            $("#fixed_carousel_p").html("").css("");
         },
         mouseleave: function () {
-            $("#fixed_carousel_p").html("QUALITY SERVICE AND RELIABILITY").css("fontSize","2.5rem");
+            $("#fixed_carousel_p").html("").css("");
         }
 
     });
