@@ -1,7 +1,4 @@
 document.getElementById("rights").innerHTML = new Date().getFullYear();
-document.getElementById("p").innerHTML = "helloooooooooo";
-
-
 
 document.getElementById("pos").innerHTML ="welcome Emma";
 const menu = document.querySelector('#mobile_menu');
